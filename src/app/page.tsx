@@ -80,11 +80,13 @@ export default function Home() {
 
               {/* Download App Section */}
               <div className="space-y-4">
-                <p className="text-xl font-semibold">Download our app:</p>
+                <p className="text-xl font-semibold text-[#ff6b00]">
+                  Download our app:
+                </p>
                 <div className="flex space-x-4">
                   <Link
                     href="#"
-                    className="inline-block bg-[#FF6B00] text-white px-6 py-3 rounded-md font-medium hover:bg-[#ff6a00dc] transition-colors"
+                    className="inline-block rounded-md bg-[#FF6B00] text-white px-6 py-3 font-medium hover:bg-[#ff6a00dc] transition-colors"
                   >
                     <span className="flex items-center">
                       <svg
@@ -101,7 +103,7 @@ export default function Home() {
                     href="#"
                     className="inline-block bg-[#FF6B00] text-white px-6 py-3 rounded-md font-medium hover:bg-[#ff6a00d0] transition-colors"
                   >
-                    <span className="flex items-center rounded-sm">
+                    <span className="flex items-center ">
                       <svg
                         className="w-6 h-6 mr-2 text-white"
                         fill="currentColor"
@@ -109,7 +111,7 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 512 512"
-                        enable-background="new 0 0 512 512"
+                        enableBackground="new 0 0 512 512"
                         xmlSpace="preserve"
                       >
                         <g id="b75708d097f2188dff6617b0f00f7c43">
