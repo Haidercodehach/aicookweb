@@ -146,7 +146,7 @@ export default function Home() {
           <div className="relative bg-gray-50 flex justify-center items-center">
             <div className="relative w-full h-full">
               <Image
-                src="/assets/header-image.png"
+                src="https://haidercodehach.github.io/aicookweb/assets/header-image.png"
                 alt="Dish"
                 layout="fill"
                 objectFit="cover"
