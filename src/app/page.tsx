@@ -270,7 +270,10 @@ export default function Home() {
               <Link href="#" className="text-gray-600 hover:text-[#FF6B00]">
                 About Us
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-[#FF6B00]">
+              <Link
+                href="https://forms.gle/Q4rD68fLV47JuRe5A"
+                className="text-gray-600 hover:text-[#FF6B00]"
+              >
                 Contact
               </Link>
               <Link href="#" className="text-gray-600 hover:text-[#FF6B00]">

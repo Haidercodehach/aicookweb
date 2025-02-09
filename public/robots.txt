@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+Disallow: /server/
+Allow: /
+
+Sitemap: https://aicook.food/sitemap.xml
