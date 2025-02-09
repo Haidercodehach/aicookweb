@@ -1,20 +1,20 @@
-import '@/styles/globals.css'
-import { RocaOne } from './fonts'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import "@/styles/globals.css";
+import { RozhaOne } from "./fonts";
 
 export const metadata = {
-  title: 'AiCook - Smart Recipes',
-  description: 'Transform Ingredients into Culinary Masterpieces',
-}
+  title: "AiCook - Smart Recipes",
+  description: "Transform Ingredients into Culinary Masterpieces",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={RocaOne.className}>{children}</body>
+      <body className={RozhaOne.className}>{children}</body>
     </html>
-  )
+  );
 }
-

@@ -1,8 +1,9 @@
+# *
 User-agent: *
-Disallow: /api/
-Disallow: /_next/
-Disallow: /private/
-Disallow: /server/
 Allow: /
 
+# Host
+Host: https://aicook.food
+
+# Sitemaps
 Sitemap: https://aicook.food/sitemap.xml

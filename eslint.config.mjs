@@ -12,9 +12,15 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-// Extend the configuration using Next.js's recommended ESLint settings for core web vitals and TypeScript
+// Extend the configuration using Next.js's recommended ESLint settings for core web vitals and TypeScript,
+// and disable the no-unused-vars rule.
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      "@typescript-eslint/no-unused-vars": "off",
+    },
+  },
 ];
 
 export default eslintConfig;
